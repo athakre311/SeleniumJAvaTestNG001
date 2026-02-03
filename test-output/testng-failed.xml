@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testCases.registration.RegisterSuccessful">
+      <class name="com.qa.SdetCode.Sdet0_10">
         <methods>
+          <include name="Sdet01"/>
           <include name="setup"/>
-          <include name="main"/>
         </methods>
-      </class> <!-- com.qa.testCases.registration.RegisterSuccessful -->
+      </class> <!-- com.qa.SdetCode.Sdet0_10 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
